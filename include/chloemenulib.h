@@ -9,7 +9,7 @@ namespace ChloeMenuLib {
 			const char* dllNames[] = {
 					"FlatOutMenuLib_gcp.dll",
 					"FlatOut2MenuLib_gcp.dll",
-					"FlatOutUCMenuLib_gcp.dll"
+					"FlatOutUCMenuLib_gcp.asi"
 			};
 			for (auto& dll : dllNames) {
 				if (auto lib = LoadLibraryA(dll)) {
