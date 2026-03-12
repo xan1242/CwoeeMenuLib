@@ -23,7 +23,7 @@ namespace ChloeMenuLib {
 			if (std::filesystem::exists(file) && std::filesystem::file_size(file) > 3) {
 				std::ifstream fin(file, std::ios::in);
 				if (fin.is_open()) {
-					char str[256];
+					//char str[256];
 
 					const auto sz = std::filesystem::file_size(file);
 					std::string result(sz, '\0');
